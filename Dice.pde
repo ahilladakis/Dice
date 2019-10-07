@@ -1,10 +1,13 @@
+dice one;
 void setup()
 {
+	size(400,400);
 	noLoop();
 }
 void draw()
 {
-	//your code here
+	background(0);
+	one.show();
 }
 void mousePressed()
 {
